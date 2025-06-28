@@ -7,7 +7,7 @@
 
 ## 🎯 Objetivos del laboratorio
 
-- Familiarizarse con herramientas clave como Anaconda, Jupyter, Google Colab, y Kaggle.
+- Familiarizarse con herramientas clave como Anaconda, Jupyter, Google Colab, Kaggle, y Visual Studio Code (opcional).
 - Entender los conceptos fundamentales de machine learning y deep learning.
 - Desarrollar habilidades prácticas con bibliotecas como Scikit-Learn, PyTorch y OpenCV.
 - Aplicar modelos de regresión logística y redes neuronales convolucionales (CNN).
@@ -30,11 +30,15 @@
 ### 1. 🔧 Configuración del entorno local con Anaconda + PyTorch
 
 - Instalación de Anaconda
+- Instalación de Visual Studio Code
 - Creación de un entorno virtual
 - Instalación de PyTorch
 - Ejecución de un ejemplo básico de red neuronal en PyTorch
 
-📁 Archivo: `01_pytorch_anaconda_basico.ipynb`
+📁 Archivos: `notebooks/00_trabajando_con_pandas_es.ipynb`
+📁 Archivos: `notebooks/01_intro_pytorch.ipynb`
+
+**Nota**: Debe bajar cada notebook y luego subilar a Google Colab son sus cambios. En el documento/reporte, debe compartir el URL de colab para su revisión.
 
 ---
 
@@ -44,7 +48,7 @@
 - Análisis exploratorio con `pandas`
 - Implementación de regresión logística con Scikit-Learn y PyTorch
 
-📁 Archivo: `02_colab_logistic_regression.ipynb`
+📁 Archivo: `notebooks/02_logistic_regression.ipynb`
 
 ---
 
@@ -54,19 +58,19 @@
 - Uso de cuadernos Kaggle con GPU
 - Entrenamiento de una CNN para clasificación de imágenes
 
-📁 Archivo: `03_kaggle_cnn_model.ipynb`
+📁 Archivo: [`03_kaggle_cnn_model.ipynb`](https://www.kaggle.com/code/serviopalacios/plant-disease-detection-using-keras)
 
 ---
 
 ### 4. 😎 Aplicaciones de reconocimiento facial
 
-- Reconocimiento facial en imágenes con OpenCV
 - Reconocimiento facial en tiempo real (si hay cámara disponible)
 
-📁 Archivos:  
+- Utiliza Teachable Machine para crear un proyecto de reconocimiento de imgágenes.
 
-- `04_facial_recognition_static.ipynb`  
-- `05_facial_recognition_live.py`
+📁 Archivos:  
+- https://teachablemachine.withgoogle.com/train
+
 
 ---
 
